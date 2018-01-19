@@ -1,0 +1,35 @@
+body {
+	font-size: 100%;
+	text-align: center;
+	color: #000000;
+}
+ 
+.container {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+}
+.navbar {
+	text-align: center;
+	width: 960px;
+	height: 40px;
+	position: fixed;
+}
+ 
+.img {
+	height: 100px;
+	width: 100px;
+	float: left;
+
+}
+ 
+#header {
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
